@@ -1,12 +1,19 @@
 "use strict"
+
 function getKostasFamilyMemberFullName(name, surname='Tsolakis') {
   console.log(`${name} ${surname}`);
 }
 
 getKostasFamilyMemberFullName('Eugene');
 
-let { aprop, ...other } = this.props;
+function spreadVariables(x, ...y) {
+  return x * y.length;
+}
 
-// function spreadVariables(x, ....y) {
-//   return x * y.length;
-// }
+console.log(spreadVariables(3, 'hello', true));
+
+function spread(x, y, z) {
+  return x + y + z;
+}
+
+console.log(spread(...[1,2,3]));
