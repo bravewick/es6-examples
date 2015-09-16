@@ -1,0 +1,31 @@
+{
+  "name": "es6-examples",
+  "version": "0.1.0",
+  "description": "Experimentation with ES6 features",
+  "main": "all.js",
+  "dependencies": {
+    "babel-eslint": "^4.1.2",
+    "eslint": "^1.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^1.4.3"
+  },
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bravewick/es6-examples"
+  },
+  "keywords": [
+    "es6",
+    "babel",
+    "javascript"
+  ],
+  "author": "Kostas Tsolakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bravewick/es6-examples/issues"
+  },
+  "homepage": "https://github.com/bravewick/es6-examples"
+}
